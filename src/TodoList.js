@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 class TodoList extends Component {
+  // this is supposed to put the cursor back in the text box after submit,
+  //but is breaking at 'current'
+
+  // componentDidUpdate() {
+  //   this.props.inputElement.current.focus()
+  // }
   render() {
     return (
       <div className="todoListMain">
